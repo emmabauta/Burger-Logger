@@ -2,10 +2,11 @@
 $(function() {
   $(".change-status").on("click", function(event) {
     var id = $(this).data("id");
-    var eatenBurger = $(this).data("eatenBurger");
+    var devour = $(this).data("eatenBurger");
+
 
     var eatBurger = {
-      devoured: eatenBurger
+      devoured: devour
     };
 
     // Send the PUT request.
@@ -14,7 +15,7 @@ $(function() {
       data: eatBurger
     }).then(
       function() {
-        console.log("changed status", eaten);
+        console.log("changed status", devour);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -45,7 +46,7 @@ $(function() {
 
   $(".delete-burger").on("click", function(event) {
     var id = $(this).data("id");
-
+  
     // Send the DELETE request.
     $.ajax("/api/burgers/" + id, {
       type: "DELETE"

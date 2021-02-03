@@ -5,16 +5,15 @@
 This project allows users to log burgers of their choosing.
 ​
 ## Table of Contents 
-​
+
 * [Installation](#installation)
-​
+
 * [Usage](#usage)
 
 * [Contributing](#contributing)
 
-​
 * [Questions](#questions)
-​
+
 ## Installation
 ​
 To install necessary dependencies, run the following command:

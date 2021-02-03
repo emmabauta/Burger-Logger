@@ -2,8 +2,8 @@
 $(function() {
   $(".change-status").on("click", function(event) {
     var id = $(this).data("id");
-    var devour = $(this).data("eatenBurger");
-
+    var devour = this.getAttribute("data-eatenBurger");
+    console.log("value is " + devour);
 
     var eatBurger = {
       devoured: devour

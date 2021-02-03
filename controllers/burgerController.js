@@ -33,7 +33,7 @@ router.put("/api/burgers/:id", function(req, res) {
 
 
   burger.update({
-    devour: req.body.devour
+    devour: req.body.devoured
   }, condition, function(result) {
     if (result.changedRows == 0) {
       return res.status(404).end();

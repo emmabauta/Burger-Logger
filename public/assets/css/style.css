@@ -1,7 +1,7 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+
 }
 
 .label {
@@ -11,9 +11,13 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  background: red;
 }
 
 .form-group {
   margin-bottom: 5px;
 }
+body {
+  background-image: url("https://image.freepik.com/free-vector/burger-seamless-pattern-background-vector-design_22159-34.jpg")
+} 
+

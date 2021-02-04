@@ -1,5 +1,5 @@
 # Burger-Logger 
-​
+​ Deployed app here: https://tranquil-caverns-16170.herokuapp.com/
 ## Description
 ​
 This project allows users to log burgers of their choosing.

@@ -4,6 +4,8 @@
 ​
 This project allows users to log burgers of their choosing.
 ​
+
+![](https://github.com/emmabauta/Burger-Logger/blob/main/public/assets/Screenshot%20(37).png)
 ## Table of Contents 
 
 * [Installation](#installation)
